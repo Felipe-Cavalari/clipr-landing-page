@@ -62,7 +62,7 @@ export default function Navbar() {
           {/* CTA desktop */}
           <div className="hidden md:flex items-center gap-3">
             <a
-              href="https://github.com/CavalariDev/clipr"
+              href="https://github.com/Felipe-Cavalari/clipr.git"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-4 py-2 text-sm text-slate-300 border border-[#2a2a38] rounded-lg hover:border-violet-500/50 hover:text-white transition-all duration-200"

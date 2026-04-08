@@ -50,7 +50,7 @@ const steps = [
     title: "Clone o repositório",
     content: (
       <CodeBlock
-        code="git clone https://github.com/CavalariDev/clipr.git\ncd clipr"
+        code="git clone https://github.com/CavalariDev/clipr.git"
         label="bash"
       />
     ),

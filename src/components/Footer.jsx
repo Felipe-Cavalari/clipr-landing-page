@@ -58,7 +58,7 @@ export default function Footer() {
             </p>
             <div className="flex items-center gap-3 mt-5">
               <a
-                href="https://github.com/CavalariDev/clipr"
+                href="https://github.com/Felipe-Cavalari/clipr.git"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-lg bg-[#18181f] border border-[#2a2a38] text-slate-400 hover:text-white hover:border-violet-500/30 transition-all"
@@ -67,7 +67,7 @@ export default function Footer() {
                 <GithubIcon className="w-4 h-4" />
               </a>
               <a
-                href="https://linkedin.com/in/felipecavalari"
+                href="https://www.linkedin.com/in/felipe-cavalari/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-lg bg-[#18181f] border border-[#2a2a38] text-slate-400 hover:text-white hover:border-violet-500/30 transition-all"
