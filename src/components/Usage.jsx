@@ -67,6 +67,11 @@ const tabs = [
         code: "clipr download URL --info",
         comment: "Exibe informações do vídeo sem baixar",
       },
+      {
+        code: "clipr download -x URL ou clipr download --audio-only URL",
+        comment:
+          "Baixa apenas o áudio do vídeo, funciona tanto para instagram quanto para youtube",
+      },
     ],
   },
   {
@@ -96,7 +101,7 @@ const tabs = [
         comment: "Verifica se a instalação está correta",
       },
       {
-        code: "clipr --help",
+        code: "clipr --help ou clipr -h",
         comment: "Exibe a ajuda completa da CLI",
       },
     ],
