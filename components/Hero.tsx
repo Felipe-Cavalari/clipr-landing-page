@@ -41,6 +41,10 @@ function PlatformTypewriter() {
     }
 
     if (deleting && text === '') {
+      // Intentional synchronous state-machine transition: when the word is fully
+      // erased, flip out of deleting and advance to the next platform. The extra
+      // render is bounded (fires once per word) and drives the typewriter loop.
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setDeleting(false)
       setIndex((i) => (i + 1) % platforms.length)
       return
