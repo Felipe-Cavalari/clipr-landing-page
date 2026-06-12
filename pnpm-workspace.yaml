@@ -1,0 +1,9 @@
+# eslint-config-next resolves its plugins by name from the project root via
+# FlatCompat; pnpm's default isolated layout hides those transitive plugins,
+# breaking `next lint` / `eslint .`. A hoisted (npm-like) layout puts every
+# dependency at node_modules root so flat-config plugin resolution works.
+nodeLinker: hoisted
+
+allowBuilds:
+  sharp: true
+  unrs-resolver: true
